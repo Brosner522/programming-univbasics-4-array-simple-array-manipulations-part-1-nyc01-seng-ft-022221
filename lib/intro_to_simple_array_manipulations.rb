@@ -7,6 +7,7 @@ describe "using_push" do
     next_color = "violet"
     updated_array = using_push(colors_in_the_rainbow, next_color)
     expect(updated_array.last).to eq(next_color)
+    binding.pry 
     end
 end
 
